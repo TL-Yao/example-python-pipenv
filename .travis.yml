@@ -4,7 +4,7 @@ notifications:
 python:
   - 3.7.4
 install:
-  - pipenv install
+  - pipenv install -r pipenv-sample/Pipfile.lock
 script:
   - echo "no scripts"
 after_success:
