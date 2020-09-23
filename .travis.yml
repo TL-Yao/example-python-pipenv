@@ -1,0 +1,11 @@
+language: python
+notifications:
+  email: false
+python:
+  - 3.7.4
+install:
+  - pipenv install
+script:
+  - echo "no scripts"
+after_success:
+  - bash <(curl -s https://copilot.blackducksoftware.com/ci/travis/scripts/upload)
