@@ -10,3 +10,6 @@ feedparser = "==5.1.1"
 pycrypto = "==2.4"
 Django = "==1.7.1"
 PyJWT = "==0.4.2"
+
+[requires]
+python_version = ">= 3.6"
