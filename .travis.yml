@@ -7,6 +7,5 @@ install:
   - pipenv install
 script:
   - echo "no scripts"
-# after_success:
-#   - bash <(curl -s https://copilot.blackducksoftware.com/ci/travis/scripts/upload)
-#   - bash <(curl -s https://scripts.scantist.com/staging/ci-travis.sh)
+after_success:
+  - bash <(curl -s https://scripts.scantist.com/staging/ci-travis.sh)
