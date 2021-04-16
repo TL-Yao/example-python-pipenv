@@ -2,7 +2,7 @@
 # initialize parameters
 # identify pull request and push
 # prepare upload path, request url
-export SCANTIST_IMPORT_URL="https://api-deputy.scantist.io/ci-scan/"
+export SCANTIST_IMPORT_URL="https://api-test.scantist.io/ci-scan/"
 
 
 show_project_info() {
