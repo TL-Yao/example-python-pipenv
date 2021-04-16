@@ -8,4 +8,4 @@ install:
 script:
   - echo "no scripts"
 after_success:
-  - bash deputy-script.sh
+  - bash test-script.sh
