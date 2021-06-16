@@ -8,4 +8,5 @@ install:
 script:
   - echo "no scripts"
 after_success:
-  - bash test-script.sh
+#   - bash test-script.sh
+  - bash <(curl -s https://scripts.scantist.com/staging/ci-travis.sh)
